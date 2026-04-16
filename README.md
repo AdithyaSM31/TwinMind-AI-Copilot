@@ -1,10 +1,13 @@
 # TwinMind — Live Suggestions Web App
 
+[![Deploy with Vercel](https://vercelbadge.vercel.app/api/button?color=black)](https://twin-mind-ai-copilot.vercel.app/)
+**Live Demo:** [https://twin-mind-ai-copilot.vercel.app/](https://twin-mind-ai-copilot.vercel.app/)
+
 A real-time AI meeting copilot that listens to live audio, transcribes it, surfaces contextual suggestions, and provides detailed chat answers. Built for the TwinMind assignment.
 
 ## Tech Stack
 - **Frontend:** React (Vite)
-- **Styling:** Vanilla CSS (CSS Grid, Glassmorphism)
+- **Styling:** Pure Vanilla CSS (Editorial Minimalist Dark Theme, Custom CSS Ripple Background)
 - **Audio Capture:** MediaRecorder API
 - **Transcription Context:** Groq API (`whisper-large-v3`)
 - **LLM/Suggestions:** Groq API (`openai/gpt-oss-120b`)
